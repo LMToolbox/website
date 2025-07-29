@@ -25,7 +25,7 @@ msgstr "LMToolbox - Strona Główna"
 
 #: server.py:29
 msgid "privacy page title"
-msgstr "LMToolbox - Polityka Prywatności"
+msgstr "LMToolbox - Polityka prywatności"
 
 #: templates/privacy.html:9
 msgid "privacy policy title"
