@@ -29,7 +29,7 @@ msgstr "LMToolbox - Polityka prywatności"
 
 #: templates/privacy.html:9
 msgid "privacy policy title"
-msgstr "Polityka Prywatności"
+msgstr "Polityka prywatności"
 
 #: templates/privacy.html:11
 msgid "privacy policy"
