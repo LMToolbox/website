@@ -28,7 +28,7 @@ msgstr "LMToolbox - Privacy Policy"
 
 #: templates/privacy.html:9
 msgid "privacy policy title"
-msgstr "Privacy Policy"
+msgstr "Privacy policy"
 
 #: templates/privacy.html:11
 msgid "privacy policy"
