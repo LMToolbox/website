@@ -1,0 +1,60 @@
+# Polish translations for PROJECT.
+# Copyright (C) 2025 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-07-29 13:41+0200\n"
+"PO-Revision-Date: 2025-07-29 13:14+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: pl <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: server.py:24
+msgid "home page title"
+msgstr "LMToolbox - Strona Główna"
+
+#: server.py:29
+msgid "privacy page title"
+msgstr "LMToolbox - Polityka Prywatności"
+
+#: templates/privacy.html:9
+msgid "privacy policy title"
+msgstr "Polityka Prywatności"
+
+#: templates/privacy.html:11
+msgid "privacy policy"
+msgstr ""
+"Aplikacja LMToolbox (id: org.lukemech.lmtoolbox) nie zbiera, nie "
+"przechowuje ani nie przekazuje żadnych danych osobowych. Aplikacja działa"
+" całkowicie offline, bez połączeń z zewnętrznymi serwerami czy usługami. "
+"Nie zawiera analityki, nie śledzi użytkowników i nie udostępnia żadnych "
+"danych osobom trzecim."
+
+#: templates/privacy.html:13
+msgid "last updated"
+msgstr "Ostatnia aktualizacja"
+
+#: templates/common/head.html:12
+msgid "welcome"
+msgstr ""
+"Strona jeszcze nie w pełni gotowa <i class=\"fa-solid fa-screwdriver-"
+"wrench\"></i>"
+
+#: templates/common/navbar.html:5
+msgid "home navigator"
+msgstr "Strona główna"
+
+#: templates/common/navbar.html:6
+msgid "privacy navigator"
+msgstr "Polityka prywatności"
+

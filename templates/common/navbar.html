@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+
+<nav>
+    <ul>
+        <li class="{{ 'active' if current == 'home' else '' }}"><a href="/">{{ _('home navigator') }}</a></li>
+        <li class="{{ 'active' if current == 'privacy' else '' }}"><a href="/privacy">{{ _('privacy navigator') }}</a></li>
+    </ul>
+</nav>

@@ -1,0 +1,18 @@
+{% include 'common/head.html' %}
+<body>
+
+    {% set current = 'privacy' %}
+    {% include 'common/navbar.html' %}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/privacy.css') }}">
+
+  <h1 class="priv_policy_title">{{ _('privacy policy title') }}</h1>
+  <div class="priv_policy_box">
+    {{ _('privacy policy') }}
+    <div class="priv_policy_footer">
+        {{ _('last updated') }}: 29.07.2025
+    </div>
+  </div>
+
+</body>
+</html>
