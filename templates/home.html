@@ -3,6 +3,14 @@
 
     {% set current = 'home' %}
     {% include 'common/navbar.html' %}
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
 
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="project-name">LMToolbox</div>
+            <img src="{{ url_for('static', filename='images/ic_launcher-playstore.png') }}" alt="Logo projektu" class="logo">
+        </div>
+    </div>
 </body>
 </html>

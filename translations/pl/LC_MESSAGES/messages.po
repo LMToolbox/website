@@ -34,7 +34,7 @@ msgstr "Polityka prywatności"
 #: templates/privacy.html:11
 msgid "privacy policy"
 msgstr ""
-"Aplikacja LMToolbox (id: org.lukemech.lmtoolbox) nie zbiera, nie "
+"Aplikacja LMToolbox (org.lukemech.lmtoolbox) nie zbiera, nie "
 "przechowuje ani nie przekazuje żadnych danych osobowych. Aplikacja działa"
 " całkowicie offline, bez połączeń z zewnętrznymi serwerami czy usługami. "
 "Nie zawiera analityki, nie śledzi użytkowników i nie udostępnia żadnych "
@@ -43,12 +43,6 @@ msgstr ""
 #: templates/privacy.html:13
 msgid "last updated"
 msgstr "Ostatnia aktualizacja"
-
-#: templates/common/head.html:12
-msgid "welcome"
-msgstr ""
-"Strona jeszcze nie w pełni gotowa <i class=\"fa-solid fa-screwdriver-"
-"wrench\"></i>"
 
 #: templates/common/navbar.html:5
 msgid "home navigator"
