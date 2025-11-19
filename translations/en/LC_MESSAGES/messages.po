@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-29 13:41+0200\n"
+"POT-Creation-Date: 2025-11-19 15:12+0100\n"
 "PO-Revision-Date: 2025-07-29 13:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -26,6 +26,15 @@ msgstr "LMToolbox - Home"
 msgid "privacy page title"
 msgstr "LMToolbox - Privacy policy"
 
+#: server.py:34
+#, fuzzy
+msgid "news page title"
+msgstr "LMToolbox - Home"
+
+#: templates/news.html:9
+msgid "news title"
+msgstr "LMToolbox - News"
+
 #: templates/privacy.html:9
 msgid "privacy policy title"
 msgstr "Privacy policy"
@@ -34,19 +43,24 @@ msgstr "Privacy policy"
 msgid "privacy policy"
 msgstr ""
 "LMToolbox app (org.lukemech.lmtoolbox) does not collect, store, or "
-"transmit any personal data. The application operates entirely offline "
-"without connecting to any external servers or services. No analytics, no "
-"user tracking, and no third-party data sharing is performed."
+"transmit any personal data. The application connects to network only to "
+"update news feed from this website (if user won't turn the feature off). "
+"No analytics, no user tracking, and no third-party data sharing is "
+"performed."
 
 #: templates/privacy.html:13
 msgid "last updated"
 msgstr "Last updated"
 
-#: templates/common/navbar.html:5
+#: templates/common/navbar.html:3
 msgid "home navigator"
 msgstr "Home"
 
-#: templates/common/navbar.html:6
+#: templates/common/navbar.html:4
 msgid "privacy navigator"
 msgstr "Privacy"
+
+#: templates/common/navbar.html:5
+msgid "news navigator"
+msgstr "News"
 

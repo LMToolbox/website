@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-07-29 13:41+0200\n"
+"POT-Creation-Date: 2025-11-19 15:12+0100\n"
 "PO-Revision-Date: 2025-07-29 13:14+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -27,6 +27,15 @@ msgstr "LMToolbox - Strona Główna"
 msgid "privacy page title"
 msgstr "LMToolbox - Polityka prywatności"
 
+#: server.py:34
+#, fuzzy
+msgid "news page title"
+msgstr "LMToolbox - Strona Główna"
+
+#: templates/news.html:9
+msgid "news title"
+msgstr "LMToolbox - Wiadomości"
+
 #: templates/privacy.html:9
 msgid "privacy policy title"
 msgstr "Polityka prywatności"
@@ -34,21 +43,25 @@ msgstr "Polityka prywatności"
 #: templates/privacy.html:11
 msgid "privacy policy"
 msgstr ""
-"Aplikacja LMToolbox (org.lukemech.lmtoolbox) nie zbiera, nie "
-"przechowuje ani nie przekazuje żadnych danych osobowych. Aplikacja działa"
-" całkowicie offline, bez połączeń z zewnętrznymi serwerami czy usługami. "
-"Nie zawiera analityki, nie śledzi użytkowników i nie udostępnia żadnych "
-"danych osobom trzecim."
+"Aplikacja LMToolbox (org.lukemech.lmtoolbox) nie zbiera, nie przechowuje "
+"ani nie przekazuje żadnych danych osobowych. Aplikacja łączy się z siecią"
+" tylko w celu aktualizacji kanału wiadomości z tej strony (gdy użytkownik"
+" nie wyłączy tej funkcji). Nie zawiera analityki, nie śledzi użytkowników"
+" i nie udostępnia żadnych danych osobom trzecim."
 
 #: templates/privacy.html:13
 msgid "last updated"
 msgstr "Ostatnia aktualizacja"
 
-#: templates/common/navbar.html:5
+#: templates/common/navbar.html:3
 msgid "home navigator"
 msgstr "Strona główna"
 
-#: templates/common/navbar.html:6
+#: templates/common/navbar.html:4
 msgid "privacy navigator"
 msgstr "Polityka prywatności"
+
+#: templates/common/navbar.html:5
+msgid "news navigator"
+msgstr "Wiadomości"
 

@@ -1,0 +1,12 @@
+{% include 'common/head.html' %}
+<body>
+
+    {% set current = 'news' %}
+    {% include 'common/navbar.html' %}
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/news.css') }}">
+
+  <h1 class="news title_title">{{ _('news title') }}</h1>
+
+</body>
+</html>
