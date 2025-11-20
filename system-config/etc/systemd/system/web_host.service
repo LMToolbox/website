@@ -1,0 +1,12 @@
+[Unit]
+Description=Flask Server
+After=network.target
+
+[Service]
+User=build
+WorkingDirectory=/home/build/website
+ExecStart=/usr/bin/python3 /home/build/website/server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
