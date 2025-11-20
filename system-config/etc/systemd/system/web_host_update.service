@@ -4,5 +4,6 @@ Wants=network-online.target
 After=network-online.target
 
 [Service]
+User=build
 WorkingDirectory=/home/build/website
 ExecStart=/usr/bin/git pull
