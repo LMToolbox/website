@@ -1,10 +1,10 @@
 [
     {
-        "title": "Welcome in news section!",
-        "subtitle": "Click to view more.",
-        "imageUrl": "https://images.unsplash.com/photo-1629654297299-c8506221ca97",
+        "title": "Welcome in the news section!",
+        "subtitle": "Click to view articles. To turn off the feed, go to Settings.",
+        "imageUrl": "https://img.freepik.com/free-photo/beautiful-natural-landscape_23-2151839236.jpg?semt=ais_hybrid&w=740&q=80",
         "actionUrl": "https://toolbox.lukemech.org",
-        "categories": ["!!!Welcome" ],
-        "createdOn": "2025-11-19_15:31"
+        "categories": ["!!!New" ],
+        "createdOn": "2025-11-20_11:15"
     }
 ]
