@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Running post-merge script..."
+# Add your custom commands here
+pybabel compile -d translations
+sudo systemctl restart web_host
